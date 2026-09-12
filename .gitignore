@@ -5,11 +5,18 @@
 .agents/
 
 # Sensitive credentials and local config
+.codex/config.toml
 service_account*.json
 credentials*.json
 *.json.key
 *.pem
 *.key
+*.jks
+*.keystore
+*.p12
+*signing*password*.clixml
+key.properties
+*.hprof
 configinfolater.txt
 *.env
 .env
@@ -24,7 +31,7 @@ __pycache__/
 pytest-cache-files-*/
 
 # Local LLM weights and cache
-models/
+/models/
 *.gguf
 *.bin
 
@@ -36,8 +43,18 @@ Thumbs.db
 
 .test-tmp/ 
 .uv-cache/
-tests/ 
+# Tests and migration fixtures are part of the executable specification.
 
 pytest_tmp_hybrid/
 
 implementation_plan_v2.md
+
+# Runtime data must not be committed with the Flutter migration.
+/data/
+python-async.txt
+deal_finder_flutter_dart_implementation_plan.md
+deal_finder_flutter_ui_design_prompt.md
+tests/
+
+DESIGN.md
+docs/

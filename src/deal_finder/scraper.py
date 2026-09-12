@@ -16,6 +16,7 @@ from bs4 import BeautifulSoup, Tag
 
 from .config import CATEGORY_URL, CATEGORY_URLS_BY_NAME, HEADERS, REQUEST_DELAY_SECONDS
 from .models import parse_bundle_check
+from .metadata import extract_metadata
 from .candidate_filter import BUNDLE_PRICE_MULTIPLIER
 
 
@@ -321,6 +322,12 @@ def _normalise_card(card: Mapping[str, Any], base_url: str) -> dict[str, Any] | 
     if not title:
         return None
     listing_id = _first_string(card, ("id", "listingId", "listingID", "listing_id"))
+    if not listing_id:
+        for key in ("id", "listingId", "listingID", "listing_id"):
+            value = card.get(key)
+            if isinstance(value, int) and not isinstance(value, bool):
+                listing_id = str(value)
+                break
     raw_link = _first_string(card, ("url", "listingUrl", "listing_url", "urlPath", "path", "href"))
     return {
         "id": listing_id,
@@ -330,6 +337,7 @@ def _normalise_card(card: Mapping[str, Any], base_url: str) -> dict[str, Any] | 
         "description": _description_from(card),
         "link": _listing_link(title, listing_id, raw_link, base_url),
         "seller": _seller_from(card),
+        **extract_metadata(card),
     }
 
 

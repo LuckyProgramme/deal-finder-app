@@ -1,0 +1,1524 @@
+{
+  "baseline_commit": "ebbad9022c2a034472887cc70909956c0e767ef3",
+  "source_sha256": {
+    "__init__.py": "2cad84e1c750ca582753f16dbbf6a8cc0bf1498360068dc8c01ccbdfbdfb6b80",
+    "accessory_checker.py": "b57e306d37461647e4e99e842fdf6f557137cbb8d34d68c3d53d117b6ab05c39",
+    "candidate_filter.py": "7728ae9c30ce05b163517afb15aa5363a93f7112a1c3ec29e2e1c7aa67feee98",
+    "config.py": "165ef639f0a5eff2c1f938c6f526f20bf6d41f18878a9347e749828a2610f3b1",
+    "deal_engine.py": "a911405ccb3ba9fe6430105d5d95c6dee7f2162d43fdc9de9ad044b6bf16a17f",
+    "deal_finder.py": "b7cc671fbcf1fab297ed3005194739e2191411eaaf1850c830e37f3064d670af",
+    "gemini_auditor.py": "58d913e5c5ba2d8dddaa08d59f0827b28f7c2b6930656dfc9c3c100a0226dad5",
+    "metadata.py": "572127840a075e39c98e8bcfdff4c3b6693adea02fe6fb7646d9f77fd67429de",
+    "models.py": "c5e0aec73a43777d893d928739a8974ac81772f49cdd09e38e93d1e029c27c0d",
+    "scraper.py": "e71223b4ccb0bac6d853457b40da1466396c5573c10802a13a4760dd897b5053",
+    "sheets_handler.py": "dea2aedf5f028929a4a6d2068fa66020b4364e2d411d8bbf41f76a7b1383a3aa",
+    "sheets_writer.py": "0afe1f78c4c536a6d79441afae2dfbbddbe9da77496541f688878434e612a9d8",
+    "text_cleaner.py": "9e6d7bba4b6c99fcffbe1f9c13c2da722f944f46b110e7cfdb54b2c5ae13e7ad",
+    "variant_tokens.py": "b39856de384ea5c7d041753d6eb0438d3a99d2a732b14dd69eb1cfacd3d06126"
+  },
+  "targets": [
+    {
+      "Item Name": "PS5 Slim",
+      "Category": "Video Gaming",
+      "Search Mode": "Category",
+      "Retail Price (PHP)": 30000,
+      "Deal Price (PHP)": 18000,
+      "Keyword for Condition Downsizing": "issue, defect, replaced",
+      "Keyword for Finding Freebies": "comes with, free, includes",
+      "Notes": "Target disc version",
+      "Target Type": "Hardware",
+      "Allow Bundle Check": false
+    },
+    {
+      "Item Name": "PS5 Slim Digital",
+      "Category": "Video Gaming",
+      "Search Mode": "Category",
+      "Retail Price (PHP)": 26000,
+      "Deal Price (PHP)": 16000,
+      "Keyword for Condition Downsizing": "issue, defect, replaced",
+      "Keyword for Finding Freebies": "comes with, free, includes",
+      "Notes": "Digital only",
+      "Target Type": "Hardware",
+      "Allow Bundle Check": false
+    },
+    {
+      "Item Name": "Nintendo Switch OLED",
+      "Category": "Video Gaming",
+      "Search Mode": "Category",
+      "Retail Price (PHP)": 16000,
+      "Deal Price (PHP)": 10000,
+      "Keyword for Condition Downsizing": "drift, scratch, repair",
+      "Keyword for Finding Freebies": "free, includes, bundle",
+      "Notes": "",
+      "Target Type": "Hardware",
+      "Allow Bundle Check": false
+    },
+    {
+      "Item Name": "iPhone 15",
+      "Category": "Mobile Phones",
+      "Search Mode": "Category",
+      "Retail Price (PHP)": 45000,
+      "Deal Price (PHP)": 28000,
+      "Keyword for Condition Downsizing": "bypass, issue, scratch",
+      "Keyword for Finding Freebies": "case, charger, free",
+      "Notes": "",
+      "Target Type": "Hardware",
+      "Allow Bundle Check": false
+    },
+    {
+      "Item Name": "iPhone 15 Pro Max",
+      "Category": "Mobile Phones",
+      "Search Mode": "Category",
+      "Retail Price (PHP)": 70000,
+      "Deal Price (PHP)": 45000,
+      "Keyword for Condition Downsizing": "bypass, crack, issue",
+      "Keyword for Finding Freebies": "case, free, bundle",
+      "Notes": "",
+      "Target Type": "Hardware",
+      "Allow Bundle Check": false
+    },
+    {
+      "Item Name": "iPad Air 5",
+      "Category": "Computers & Tech",
+      "Search Mode": "Category",
+      "Retail Price (PHP)": 35000,
+      "Deal Price (PHP)": 22000,
+      "Keyword for Condition Downsizing": "crack, dent, issue",
+      "Keyword for Finding Freebies": "pencil, folio, free",
+      "Notes": "",
+      "Target Type": "Hardware",
+      "Allow Bundle Check": false
+    },
+    {
+      "Item Name": "M1 MacBook Air",
+      "Category": "Computers & Tech",
+      "Search Mode": "Category",
+      "Retail Price (PHP)": 42000,
+      "Deal Price (PHP)": 25000,
+      "Keyword for Condition Downsizing": "battery, issue, dent",
+      "Keyword for Finding Freebies": "charger, bag, free",
+      "Notes": "8GB/256GB base",
+      "Target Type": "Hardware",
+      "Allow Bundle Check": false
+    },
+    {
+      "Item Name": "Sony WH-1000XM5",
+      "Category": "Computers & Tech",
+      "Search Mode": "Category",
+      "Retail Price (PHP)": 18000,
+      "Deal Price (PHP)": 10000,
+      "Keyword for Condition Downsizing": "pad, issue, replaced",
+      "Keyword for Finding Freebies": "case, cable, free",
+      "Notes": "",
+      "Target Type": "Hardware",
+      "Allow Bundle Check": false
+    }
+  ],
+  "cases": [
+    {
+      "listing": {
+        "id": "bench_01",
+        "title": "PS5 Slim Disc Edition 1TB Complete",
+        "price": 17500.0,
+        "description": "Used for 3 months, 100% smooth with 1 dualsense controller.",
+        "expected_target": "PS5 Slim",
+        "is_true_deal": true
+      },
+      "aliases": "ps5 playstation 5 Slim Disc Edition 1TB Complete",
+      "clean_description": "Used for 3 months, 100% smooth with 1 dualsense controller.",
+      "scores": {
+        "PS5 Slim": [
+          100.0,
+          100.0,
+          100.0
+        ],
+        "PS5 Slim Digital": [
+          90.9090909090909,
+          84.61538461538461,
+          90.9090909090909
+        ],
+        "Nintendo Switch OLED": [
+          42.42424242424242,
+          26.470588235294116,
+          42.42424242424242
+        ],
+        "iPhone 15": [
+          55.55555555555556,
+          24.56140350877193,
+          55.55555555555556
+        ],
+        "iPhone 15 Pro Max": [
+          42.85714285714286,
+          30.769230769230774,
+          42.85714285714286
+        ],
+        "iPad Air 5": [
+          40.0,
+          24.13793103448276,
+          40.0
+        ],
+        "M1 MacBook Air": [
+          35.71428571428571,
+          19.354838709677423,
+          35.71428571428571
+        ],
+        "Sony WH-1000XM5": [
+          37.83783783783784,
+          19.04761904761905,
+          37.83783783783784
+        ]
+      },
+      "candidates": [
+        {
+          "target": "PS5 Slim",
+          "price_centavos": 1750000,
+          "flag": "normal"
+        }
+      ]
+    },
+    {
+      "listing": {
+        "id": "bench_02",
+        "title": "PS5 Slim Digital Complete with Box",
+        "price": 15000.0,
+        "description": "Digital edition only, no disc drive. Includes receipt and cables.",
+        "expected_target": "PS5 Slim Digital",
+        "is_true_deal": true
+      },
+      "aliases": "ps5 playstation 5 Slim Digital Complete with Box",
+      "clean_description": "Digital edition only, no disc drive. Includes receipt and cables.",
+      "scores": {
+        "PS5 Slim": [
+          100.0,
+          100.0,
+          100.0
+        ],
+        "PS5 Slim Digital": [
+          100.0,
+          100.0,
+          100.0
+        ],
+        "Nintendo Switch OLED": [
+          43.333333333333336,
+          35.294117647058826,
+          43.333333333333336
+        ],
+        "iPhone 15": [
+          55.55555555555556,
+          21.05263157894737,
+          55.55555555555556
+        ],
+        "iPhone 15 Pro Max": [
+          42.10526315789473,
+          27.692307692307693,
+          42.10526315789473
+        ],
+        "iPad Air 5": [
+          40.0,
+          20.689655172413794,
+          40.0
+        ],
+        "M1 MacBook Air": [
+          35.71428571428571,
+          16.129032258064512,
+          35.71428571428571
+        ],
+        "Sony WH-1000XM5": [
+          37.83783783783784,
+          19.04761904761905,
+          37.83783783783784
+        ]
+      },
+      "candidates": [
+        {
+          "target": "PS5 Slim",
+          "price_centavos": 1500000,
+          "flag": "normal"
+        },
+        {
+          "target": "PS5 Slim Digital",
+          "price_centavos": 1500000,
+          "flag": "normal"
+        }
+      ]
+    },
+    {
+      "listing": {
+        "id": "bench_03",
+        "title": "Nintendo Switch OLED White 64GB",
+        "price": 9500.0,
+        "description": "Mint condition, complete with dock and charger.",
+        "expected_target": "Nintendo Switch OLED",
+        "is_true_deal": true
+      },
+      "aliases": "Nintendo nintendo nintendo switch oled White 64GB",
+      "clean_description": "Mint condition, complete with dock and charger.",
+      "scores": {
+        "PS5 Slim": [
+          31.818181818181824,
+          26.41509433962264,
+          31.818181818181824
+        ],
+        "PS5 Slim Digital": [
+          33.333333333333336,
+          29.508196721311478,
+          33.333333333333336
+        ],
+        "Nintendo Switch OLED": [
+          100.0,
+          100.0,
+          100.0
+        ],
+        "iPhone 15": [
+          44.44444444444444,
+          20.0,
+          44.44444444444444
+        ],
+        "iPhone 15 Pro Max": [
+          42.85714285714286,
+          25.0,
+          42.85714285714286
+        ],
+        "iPad Air 5": [
+          40.0,
+          19.512195121951223,
+          40.0
+        ],
+        "M1 MacBook Air": [
+          28.57142857142857,
+          17.77777777777777,
+          28.57142857142857
+        ],
+        "Sony WH-1000XM5": [
+          35.0,
+          17.391304347826093,
+          35.0
+        ]
+      },
+      "candidates": [
+        {
+          "target": "Nintendo Switch OLED",
+          "price_centavos": 950000,
+          "flag": "normal"
+        }
+      ]
+    },
+    {
+      "listing": {
+        "id": "bench_04",
+        "title": "Selling my preloved gaming console sony play station 5 complete unit rush sale meetup bgc",
+        "price": 17000.0,
+        "description": "Disc version slim model, comes with 2 controllers and hdmi cable.",
+        "expected_target": "PS5 Slim",
+        "is_true_deal": true
+      },
+      "aliases": "Selling my preloved gaming console sony ps5 playstation 5 playstation 5 complete unit rush sale meetup bgc",
+      "clean_description": "Disc version slim model, comes with 2 controllers and hdmi cable.",
+      "scores": {
+        "PS5 Slim": [
+          87.17948717948718,
+          87.17948717948718,
+          86.36363636363636
+        ],
+        "PS5 Slim Digital": [
+          72.34042553191489,
+          72.34042553191489,
+          70.0
+        ],
+        "Nintendo Switch OLED": [
+          39.473684210526315,
+          23.214285714285708,
+          39.473684210526315
+        ],
+        "iPhone 15": [
+          55.55555555555556,
+          13.861386138613867,
+          55.55555555555556
+        ],
+        "iPhone 15 Pro Max": [
+          50.0,
+          23.853211009174316,
+          50.0
+        ],
+        "iPad Air 5": [
+          50.0,
+          18.181818181818187,
+          50.0
+        ],
+        "M1 MacBook Air": [
+          42.85714285714286,
+          16.98113207547169,
+          42.85714285714286
+        ],
+        "Sony WH-1000XM5": [
+          44.99999999999999,
+          42.10526315789474,
+          44.99999999999999
+        ]
+      },
+      "candidates": [
+        {
+          "target": "PS5 Slim",
+          "price_centavos": 1700000,
+          "flag": "normal"
+        }
+      ]
+    },
+    {
+      "listing": {
+        "id": "bench_05",
+        "title": "White oled v2 console unit complete dock charger pokemon theme rush",
+        "price": 9000.0,
+        "description": "Nintendo Switch OLED console in good condition, no drift on joycons.",
+        "expected_target": "Nintendo Switch OLED",
+        "is_true_deal": true
+      },
+      "aliases": "White nintendo nintendo switch oled unit complete dock charger pokemon theme rush",
+      "clean_description": "Nintendo Switch OLED console in good condition, no drift on joycons.",
+      "scores": {
+        "PS5 Slim": [
+          34.14634146341463,
+          27.65957446808511,
+          34.14634146341463
+        ],
+        "PS5 Slim Digital": [
+          33.333333333333336,
+          29.411764705882348,
+          33.333333333333336
+        ],
+        "Nintendo Switch OLED": [
+          100.0,
+          100.0,
+          90.41095890410959
+        ],
+        "iPhone 15": [
+          44.44444444444444,
+          14.81481481481481,
+          44.44444444444444
+        ],
+        "iPhone 15 Pro Max": [
+          41.666666666666664,
+          20.224719101123597,
+          41.666666666666664
+        ],
+        "iPad Air 5": [
+          40.0,
+          12.195121951219505,
+          40.0
+        ],
+        "M1 MacBook Air": [
+          42.85714285714286,
+          20.930232558139537,
+          42.85714285714286
+        ],
+        "Sony WH-1000XM5": [
+          32.432432432432435,
+          13.793103448275858,
+          32.432432432432435
+        ]
+      },
+      "candidates": [
+        {
+          "target": "Nintendo Switch OLED",
+          "price_centavos": 900000,
+          "flag": "normal"
+        }
+      ]
+    },
+    {
+      "listing": {
+        "id": "bench_06",
+        "title": "apple macbook air m1 2020 space grey 8gb 256gb with box and charger rush negotiable",
+        "price": 24000.0,
+        "description": "Battery health 91%, base model 8gb/256gb. No dents.",
+        "expected_target": "M1 MacBook Air",
+        "is_true_deal": true
+      },
+      "aliases": "apple macbook air m1 2020 space grey 8gb 256gb with box and charger rush negotiable",
+      "clean_description": "Battery health 91%, base model 8gb/256gb. No dents.",
+      "scores": {
+        "PS5 Slim": [
+          39.02439024390244,
+          26.66666666666667,
+          39.02439024390244
+        ],
+        "PS5 Slim Digital": [
+          37.93103448275862,
+          31.858407079646014,
+          37.93103448275862
+        ],
+        "Nintendo Switch OLED": [
+          41.0958904109589,
+          27.18446601941747,
+          41.0958904109589
+        ],
+        "iPhone 15": [
+          44.44444444444444,
+          17.391304347826093,
+          44.44444444444444
+        ],
+        "iPhone 15 Pro Max": [
+          37.5,
+          22.0,
+          37.5
+        ],
+        "iPad Air 5": [
+          50.0,
+          46.15384615384615,
+          50.0
+        ],
+        "M1 MacBook Air": [
+          100.0,
+          100.0,
+          85.71428571428572
+        ],
+        "Sony WH-1000XM5": [
+          30.000000000000004,
+          10.204081632653057,
+          30.000000000000004
+        ]
+      },
+      "candidates": [
+        {
+          "target": "M1 MacBook Air",
+          "price_centavos": 2400000,
+          "flag": "normal"
+        }
+      ]
+    },
+    {
+      "listing": {
+        "id": "bench_07",
+        "title": "NSW OLED white with 2 games rush",
+        "price": 9200.0,
+        "description": "NSW OLED console complete dock, free pokemon game and zelda.",
+        "expected_target": "Nintendo Switch OLED",
+        "is_true_deal": true
+      },
+      "aliases": "nintendo switch OLED white with 2 games rush",
+      "clean_description": "NSW OLED console complete dock, free pokemon game and zelda.",
+      "scores": {
+        "PS5 Slim": [
+          31.818181818181824,
+          30.303030303030297,
+          31.818181818181824
+        ],
+        "PS5 Slim Digital": [
+          33.333333333333336,
+          29.729729729729726,
+          33.333333333333336
+        ],
+        "Nintendo Switch OLED": [
+          100.0,
+          100.0,
+          68.96551724137932
+        ],
+        "iPhone 15": [
+          44.44444444444444,
+          15.094339622641513,
+          44.44444444444444
+        ],
+        "iPhone 15 Pro Max": [
+          41.666666666666664,
+          22.950819672131146,
+          41.666666666666664
+        ],
+        "iPad Air 5": [
+          40.0,
+          22.22222222222223,
+          40.0
+        ],
+        "M1 MacBook Air": [
+          31.999999999999996,
+          17.241379310344826,
+          31.999999999999996
+        ],
+        "Sony WH-1000XM5": [
+          35.0,
+          16.949152542372886,
+          35.0
+        ]
+      },
+      "candidates": [
+        {
+          "target": "Nintendo Switch OLED",
+          "price_centavos": 920000,
+          "flag": "normal"
+        }
+      ]
+    },
+    {
+      "listing": {
+        "id": "bench_08",
+        "title": "ip15pm 256gb natural titanium complete",
+        "price": 43000.0,
+        "description": "iPhone 15 Pro Max 256GB, battery health 98%, factory unlocked.",
+        "expected_target": "iPhone 15 Pro Max",
+        "is_true_deal": true
+      },
+      "aliases": "iphone 15 pro max 256gb natural titanium complete",
+      "clean_description": "iPhone 15 Pro Max 256GB, battery health 98%, factory unlocked.",
+      "scores": {
+        "PS5 Slim": [
+          45.45454545454546,
+          36.61971830985915,
+          45.45454545454546
+        ],
+        "PS5 Slim Digital": [
+          40.0,
+          37.9746835443038,
+          40.0
+        ],
+        "Nintendo Switch OLED": [
+          38.095238095238095,
+          26.086956521739125,
+          38.095238095238095
+        ],
+        "iPhone 15": [
+          100.0,
+          100.0,
+          100.0
+        ],
+        "iPhone 15 Pro Max": [
+          100.0,
+          100.0,
+          82.92682926829268
+        ],
+        "iPad Air 5": [
+          50.0,
+          23.728813559322035,
+          50.0
+        ],
+        "M1 MacBook Air": [
+          42.85714285714286,
+          19.04761904761905,
+          42.85714285714286
+        ],
+        "Sony WH-1000XM5": [
+          35.0,
+          15.625,
+          35.0
+        ]
+      },
+      "candidates": [
+        {
+          "target": "iPhone 15 Pro Max",
+          "price_centavos": 4300000,
+          "flag": "normal"
+        }
+      ]
+    },
+    {
+      "listing": {
+        "id": "bench_09",
+        "title": "sony xm5 silver noise cancelling headphones with case",
+        "price": 9500.0,
+        "description": "Sony WH-1000XM5 wireless headphones, clean pads, original case.",
+        "expected_target": "Sony WH-1000XM5",
+        "is_true_deal": true
+      },
+      "aliases": "sony sony wh-1000xm5 silver noise cancelling headphones with case",
+      "clean_description": "Sony WH-1000XM5 wireless headphones, clean pads, original case.",
+      "scores": {
+        "PS5 Slim": [
+          40.90909090909091,
+          29.268292682926827,
+          40.90909090909091
+        ],
+        "PS5 Slim Digital": [
+          40.74074074074075,
+          31.111111111111114,
+          40.74074074074075
+        ],
+        "Nintendo Switch OLED": [
+          50.66666666666666,
+          40.0,
+          50.66666666666666
+        ],
+        "iPhone 15": [
+          66.66666666666667,
+          17.391304347826093,
+          66.66666666666667
+        ],
+        "iPhone 15 Pro Max": [
+          50.0,
+          25.974025974025977,
+          50.0
+        ],
+        "iPad Air 5": [
+          40.0,
+          17.14285714285714,
+          40.0
+        ],
+        "M1 MacBook Air": [
+          35.71428571428571,
+          18.91891891891892,
+          35.71428571428571
+        ],
+        "Sony WH-1000XM5": [
+          100.0,
+          100.0,
+          100.0
+        ]
+      },
+      "candidates": [
+        {
+          "target": "iPhone 15",
+          "price_centavos": 950000,
+          "flag": "normal"
+        },
+        {
+          "target": "Sony WH-1000XM5",
+          "price_centavos": 950000,
+          "flag": "normal"
+        }
+      ]
+    },
+    {
+      "listing": {
+        "id": "bench_10",
+        "title": "mba m1 base model complete with charger",
+        "price": 23000.0,
+        "description": "M1 MacBook Air 8GB 256GB Space Grey, perfectly working.",
+        "expected_target": "M1 MacBook Air",
+        "is_true_deal": true
+      },
+      "aliases": "m1 macbook air base model complete with charger",
+      "clean_description": "M1 MacBook Air 8GB 256GB Space Grey, perfectly working.",
+      "scores": {
+        "PS5 Slim": [
+          32.55813953488372,
+          26.086956521739125,
+          32.55813953488372
+        ],
+        "PS5 Slim Digital": [
+          33.333333333333336,
+          28.57142857142857,
+          33.333333333333336
+        ],
+        "Nintendo Switch OLED": [
+          39.473684210526315,
+          35.82089552238806,
+          39.473684210526315
+        ],
+        "iPhone 15": [
+          33.333333333333336,
+          14.285714285714292,
+          33.333333333333336
+        ],
+        "iPhone 15 Pro Max": [
+          34.285714285714285,
+          28.125,
+          34.285714285714285
+        ],
+        "iPad Air 5": [
+          50.0,
+          46.15384615384615,
+          50.0
+        ],
+        "M1 MacBook Air": [
+          100.0,
+          100.0,
+          100.0
+        ],
+        "Sony WH-1000XM5": [
+          30.000000000000004,
+          16.129032258064512,
+          30.000000000000004
+        ]
+      },
+      "candidates": [
+        {
+          "target": "M1 MacBook Air",
+          "price_centavos": 2300000,
+          "flag": "normal"
+        }
+      ]
+    },
+    {
+      "listing": {
+        "id": "bench_11",
+        "title": "iPad Air 5 64gb wifi blue with apple pencil",
+        "price": 21000.0,
+        "description": "M1 chip ipad air 5th gen, includes 2nd gen apple pencil and folio.",
+        "expected_target": "iPad Air 5",
+        "is_true_deal": true
+      },
+      "aliases": "ipad air 5 64gb wifi blue with apple pencil",
+      "clean_description": "M1 chip ipad air 5th gen, includes 2nd gen apple pencil and folio.",
+      "scores": {
+        "PS5 Slim": [
+          42.42424242424242,
+          27.692307692307693,
+          42.42424242424242
+        ],
+        "PS5 Slim Digital": [
+          41.509433962264154,
+          35.61643835616438,
+          41.509433962264154
+        ],
+        "Nintendo Switch OLED": [
+          40.54054054054054,
+          34.920634920634924,
+          40.54054054054054
+        ],
+        "iPhone 15": [
+          42.85714285714286,
+          19.230769230769226,
+          42.85714285714286
+        ],
+        "iPhone 15 Pro Max": [
+          40.0,
+          30.0,
+          40.0
+        ],
+        "iPad Air 5": [
+          100.0,
+          100.0,
+          100.0
+        ],
+        "M1 MacBook Air": [
+          45.45454545454546,
+          35.294117647058826,
+          45.45454545454546
+        ],
+        "Sony WH-1000XM5": [
+          19.999999999999996,
+          13.793103448275858,
+          19.999999999999996
+        ]
+      },
+      "candidates": [
+        {
+          "target": "iPad Air 5",
+          "price_centavos": 2100000,
+          "flag": "normal"
+        }
+      ]
+    },
+    {
+      "listing": {
+        "id": "bench_12",
+        "title": "iPhone 15 128GB Black NTC Official",
+        "price": 27000.0,
+        "description": "NTC warranty until Dec 2026, 100% battery, complete set with box.",
+        "expected_target": "iPhone 15",
+        "is_true_deal": true
+      },
+      "aliases": "iPhone 15 128GB Black NTC Official",
+      "clean_description": "NTC warranty until Dec 2026, 100% battery, complete set with box.",
+      "scores": {
+        "PS5 Slim": [
+          37.5,
+          35.71428571428571,
+          37.5
+        ],
+        "PS5 Slim Digital": [
+          36.73469387755102,
+          31.25,
+          36.73469387755102
+        ],
+        "Nintendo Switch OLED": [
+          33.9622641509434,
+          29.629629629629633,
+          33.9622641509434
+        ],
+        "iPhone 15": [
+          100.0,
+          100.0,
+          100.0
+        ],
+        "iPhone 15 Pro Max": [
+          69.23076923076923,
+          69.23076923076923,
+          58.82352941176471
+        ],
+        "iPad Air 5": [
+          42.10526315789473,
+          31.818181818181813,
+          42.10526315789473
+        ],
+        "M1 MacBook Air": [
+          42.85714285714286,
+          29.16666666666667,
+          42.85714285714286
+        ],
+        "Sony WH-1000XM5": [
+          34.48275862068966,
+          12.244897959183675,
+          34.48275862068966
+        ]
+      },
+      "candidates": [
+        {
+          "target": "iPhone 15",
+          "price_centavos": 2700000,
+          "flag": "normal"
+        },
+        {
+          "target": "iPhone 15 Pro Max",
+          "price_centavos": 2700000,
+          "flag": "normal"
+        }
+      ]
+    },
+    {
+      "listing": {
+        "id": "bench_13",
+        "title": "PS5 Slim Disc - 15.5k take all rush sale",
+        "price": 0.0,
+        "description": "Price is 15.5k fixed, pm me. Selling cheap need cash.",
+        "expected_target": "PS5 Slim",
+        "is_true_deal": true,
+        "recovery_expected": 15500.0
+      },
+      "aliases": "ps5 playstation 5 Slim Disc - 15.5k take all rush sale",
+      "clean_description": "Price is 15.5k fixed, pm me. Selling cheap need cash.",
+      "scores": {
+        "PS5 Slim": [
+          100.0,
+          100.0,
+          100.0
+        ],
+        "PS5 Slim Digital": [
+          90.9090909090909,
+          84.61538461538461,
+          90.9090909090909
+        ],
+        "Nintendo Switch OLED": [
+          35.08771929824561,
+          27.02702702702703,
+          35.08771929824561
+        ],
+        "iPhone 15": [
+          55.55555555555556,
+          25.396825396825392,
+          55.55555555555556
+        ],
+        "iPhone 15 Pro Max": [
+          39.13043478260869,
+          30.985915492957744,
+          39.13043478260869
+        ],
+        "iPad Air 5": [
+          40.0,
+          25.0,
+          40.0
+        ],
+        "M1 MacBook Air": [
+          42.85714285714286,
+          23.529411764705884,
+          42.85714285714286
+        ],
+        "Sony WH-1000XM5": [
+          40.0,
+          17.391304347826093,
+          40.0
+        ]
+      },
+      "candidates": [
+        {
+          "target": "PS5 Slim",
+          "price_centavos": 1550000,
+          "flag": "text_recovered"
+        },
+        {
+          "target": "PS5 Slim Digital",
+          "price_centavos": 1550000,
+          "flag": "text_recovered"
+        }
+      ]
+    },
+    {
+      "listing": {
+        "id": "bench_14",
+        "title": "Nintendo Switch OLED White - PM for price",
+        "price": 0.0,
+        "description": "Selling for 9k take all today only, complete package.",
+        "expected_target": "Nintendo Switch OLED",
+        "is_true_deal": true,
+        "recovery_expected": 9000.0
+      },
+      "aliases": "Nintendo nintendo nintendo switch oled White - PM for price",
+      "clean_description": "Selling for 9k take all today only, complete package.",
+      "scores": {
+        "PS5 Slim": [
+          31.818181818181824,
+          25.396825396825392,
+          31.818181818181824
+        ],
+        "PS5 Slim Digital": [
+          33.333333333333336,
+          30.985915492957744,
+          33.333333333333336
+        ],
+        "Nintendo Switch OLED": [
+          100.0,
+          100.0,
+          100.0
+        ],
+        "iPhone 15": [
+          44.44444444444444,
+          20.0,
+          44.44444444444444
+        ],
+        "iPhone 15 Pro Max": [
+          45.833333333333336,
+          31.034482758620683,
+          45.833333333333336
+        ],
+        "iPad Air 5": [
+          40.0,
+          19.607843137254903,
+          40.0
+        ],
+        "M1 MacBook Air": [
+          40.0,
+          18.181818181818187,
+          40.0
+        ],
+        "Sony WH-1000XM5": [
+          35.0,
+          17.85714285714286,
+          35.0
+        ]
+      },
+      "candidates": [
+        {
+          "target": "Nintendo Switch OLED",
+          "price_centavos": 0,
+          "flag": "placeholder_zero"
+        }
+      ]
+    },
+    {
+      "listing": {
+        "id": "bench_15",
+        "title": "PS5 Slim Digital (DP 1,000 reservation)",
+        "price": 1000.0,
+        "description": "Total selling price is 15k, 1k reservation fee to hold the unit.",
+        "expected_target": "PS5 Slim Digital",
+        "is_true_deal": true,
+        "recovery_expected": 15000.0
+      },
+      "aliases": "ps5 playstation 5 Slim Digital (DP 1,000 reservation)",
+      "clean_description": "Total selling price is 15k, 1k reservation fee to hold the unit.",
+      "scores": {
+        "PS5 Slim": [
+          100.0,
+          100.0,
+          100.0
+        ],
+        "PS5 Slim Digital": [
+          100.0,
+          100.0,
+          100.0
+        ],
+        "Nintendo Switch OLED": [
+          29.032258064516125,
+          21.917808219178085,
+          29.032258064516125
+        ],
+        "iPhone 15": [
+          55.55555555555556,
+          25.80645161290323,
+          55.55555555555556
+        ],
+        "iPhone 15 Pro Max": [
+          39.13043478260869,
+          31.42857142857143,
+          39.13043478260869
+        ],
+        "iPad Air 5": [
+          40.0,
+          22.22222222222223,
+          40.0
+        ],
+        "M1 MacBook Air": [
+          29.629629629629626,
+          17.910447761194035,
+          29.629629629629626
+        ],
+        "Sony WH-1000XM5": [
+          37.83783783783784,
+          17.647058823529406,
+          37.83783783783784
+        ]
+      },
+      "candidates": [
+        {
+          "target": "PS5 Slim",
+          "price_centavos": 1500000,
+          "flag": "text_recovered"
+        },
+        {
+          "target": "PS5 Slim Digital",
+          "price_centavos": 1500000,
+          "flag": "text_recovered"
+        }
+      ]
+    },
+    {
+      "listing": {
+        "id": "bench_16",
+        "title": "Sony WH-1000XM5 Black PM for price",
+        "price": 0.0,
+        "description": "PM me for best offer or swap to airpods max.",
+        "expected_target": "Sony WH-1000XM5",
+        "is_true_deal": false,
+        "is_placeholder": true
+      },
+      "aliases": "Sony sony wh-1000xm5 Black PM for price",
+      "clean_description": "PM me for best offer or swap to airpods max.",
+      "scores": {
+        "PS5 Slim": [
+          37.5,
+          28.57142857142857,
+          37.5
+        ],
+        "PS5 Slim Digital": [
+          37.03703703703704,
+          25.0,
+          37.03703703703704
+        ],
+        "Nintendo Switch OLED": [
+          29.508196721311474,
+          25.925925925925924,
+          29.508196721311474
+        ],
+        "iPhone 15": [
+          44.44444444444444,
+          18.604651162790702,
+          44.44444444444444
+        ],
+        "iPhone 15 Pro Max": [
+          41.666666666666664,
+          31.372549019607845,
+          41.666666666666664
+        ],
+        "iPad Air 5": [
+          40.0,
+          18.181818181818187,
+          40.0
+        ],
+        "M1 MacBook Air": [
+          42.85714285714286,
+          29.16666666666667,
+          42.85714285714286
+        ],
+        "Sony WH-1000XM5": [
+          100.0,
+          100.0,
+          100.0
+        ]
+      },
+      "candidates": [
+        {
+          "target": "Sony WH-1000XM5",
+          "price_centavos": 0,
+          "flag": "placeholder_zero"
+        }
+      ]
+    },
+    {
+      "listing": {
+        "id": "bench_17",
+        "title": "iPhone 15 Pro Max 256GB Box Only",
+        "price": 1200.0,
+        "description": "Original box and manual only, NO phone included.",
+        "expected_target": "iPhone 15 Pro Max",
+        "is_true_deal": false,
+        "is_accessory": true
+      },
+      "aliases": "iPhone iphone 15 pro max 256GB Box Only",
+      "clean_description": "Original box and manual only, NO phone included.",
+      "scores": {
+        "PS5 Slim": [
+          41.02564102564102,
+          29.629629629629633,
+          41.02564102564102
+        ],
+        "PS5 Slim Digital": [
+          37.735849056603776,
+          32.25806451612904,
+          37.735849056603776
+        ],
+        "Nintendo Switch OLED": [
+          37.93103448275862,
+          26.92307692307692,
+          37.93103448275862
+        ],
+        "iPhone 15": [
+          100.0,
+          100.0,
+          100.0
+        ],
+        "iPhone 15 Pro Max": [
+          100.0,
+          100.0,
+          100.0
+        ],
+        "iPad Air 5": [
+          50.0,
+          28.57142857142857,
+          50.0
+        ],
+        "M1 MacBook Air": [
+          35.71428571428571,
+          26.086956521739125,
+          35.71428571428571
+        ],
+        "Sony WH-1000XM5": [
+          44.44444444444444,
+          17.02127659574468,
+          44.44444444444444
+        ]
+      },
+      "candidates": [
+        {
+          "target": "iPhone 15",
+          "price_centavos": 120000,
+          "flag": "suspiciously_low"
+        },
+        {
+          "target": "iPhone 15 Pro Max",
+          "price_centavos": 120000,
+          "flag": "suspiciously_low"
+        }
+      ]
+    },
+    {
+      "listing": {
+        "id": "bench_18",
+        "title": "Nintendo Switch OLED Dock and HDMI Cable Only",
+        "price": 800.0,
+        "description": "Dock only, console already sold.",
+        "expected_target": "Nintendo Switch OLED",
+        "is_true_deal": false,
+        "is_accessory": true
+      },
+      "aliases": "Nintendo nintendo nintendo switch oled Dock and HDMI Cable Only",
+      "clean_description": "Dock only, console already sold.",
+      "scores": {
+        "PS5 Slim": [
+          31.818181818181824,
+          23.88059701492537,
+          31.818181818181824
+        ],
+        "PS5 Slim Digital": [
+          33.333333333333336,
+          32.0,
+          33.333333333333336
+        ],
+        "Nintendo Switch OLED": [
+          100.0,
+          100.0,
+          100.0
+        ],
+        "iPhone 15": [
+          44.44444444444444,
+          14.81481481481481,
+          44.44444444444444
+        ],
+        "iPhone 15 Pro Max": [
+          42.85714285714286,
+          22.58064516129032,
+          42.85714285714286
+        ],
+        "iPad Air 5": [
+          50.0,
+          21.818181818181813,
+          50.0
+        ],
+        "M1 MacBook Air": [
+          42.85714285714286,
+          20.33898305084746,
+          42.85714285714286
+        ],
+        "Sony WH-1000XM5": [
+          35.0,
+          20.0,
+          35.0
+        ]
+      },
+      "candidates": [
+        {
+          "target": "Nintendo Switch OLED",
+          "price_centavos": 80000,
+          "flag": "suspiciously_low"
+        }
+      ]
+    },
+    {
+      "listing": {
+        "id": "bench_19",
+        "title": "PS5 Slim Disc Complete Mint",
+        "price": 25000.0,
+        "description": "Used twice, like brand new with receipt.",
+        "expected_target": "PS5 Slim",
+        "is_true_deal": false,
+        "reason": "Price exceeds deal threshold (25000 > 18000)"
+      },
+      "aliases": "ps5 playstation 5 Slim Disc Complete Mint",
+      "clean_description": "Used twice, like brand new with receipt.",
+      "scores": {
+        "PS5 Slim": [
+          100.0,
+          100.0,
+          100.0
+        ],
+        "PS5 Slim Digital": [
+          90.9090909090909,
+          84.61538461538461,
+          90.9090909090909
+        ],
+        "Nintendo Switch OLED": [
+          35.820895522388064,
+          26.229508196721312,
+          35.820895522388064
+        ],
+        "iPhone 15": [
+          55.55555555555556,
+          24.0,
+          55.55555555555556
+        ],
+        "iPhone 15 Pro Max": [
+          39.13043478260869,
+          31.034482758620683,
+          39.13043478260869
+        ],
+        "iPad Air 5": [
+          40.0,
+          27.450980392156865,
+          40.0
+        ],
+        "M1 MacBook Air": [
+          35.71428571428571,
+          21.818181818181813,
+          35.71428571428571
+        ],
+        "Sony WH-1000XM5": [
+          37.83783783783784,
+          17.85714285714286,
+          37.83783783783784
+        ]
+      },
+      "candidates": []
+    },
+    {
+      "listing": {
+        "id": "bench_20",
+        "title": "Samsung Galaxy S24 Ultra 512GB",
+        "price": 42000.0,
+        "description": "Titanium violet, complete accessories.",
+        "expected_target": null,
+        "is_true_deal": false
+      },
+      "aliases": "Samsung Galaxy S24 Ultra 512GB",
+      "clean_description": "Titanium violet, complete accessories.",
+      "scores": {
+        "PS5 Slim": [
+          40.90909090909091,
+          38.46153846153846,
+          40.90909090909091
+        ],
+        "PS5 Slim Digital": [
+          42.553191489361694,
+          40.0,
+          42.553191489361694
+        ],
+        "Nintendo Switch OLED": [
+          22.22222222222222,
+          20.0,
+          22.22222222222222
+        ],
+        "iPhone 15": [
+          26.66666666666667,
+          15.384615384615387,
+          26.66666666666667
+        ],
+        "iPhone 15 Pro Max": [
+          25.531914893617028,
+          25.531914893617028,
+          25.0
+        ],
+        "iPad Air 5": [
+          40.0,
+          25.0,
+          40.0
+        ],
+        "M1 MacBook Air": [
+          30.76923076923077,
+          22.727272727272734,
+          30.76923076923077
+        ],
+        "Sony WH-1000XM5": [
+          30.76923076923077,
+          13.333333333333329,
+          30.76923076923077
+        ]
+      },
+      "candidates": []
+    },
+    {
+      "listing": {
+        "id": "bench_21",
+        "title": "Nintendo 3DS XL Zelda Edition",
+        "price": 6500.0,
+        "description": "Good condition, CFW installed.",
+        "expected_target": null,
+        "is_true_deal": false
+      },
+      "aliases": "Nintendo 3DS XL Zelda Edition",
+      "clean_description": "Good condition, CFW installed.",
+      "scores": {
+        "PS5 Slim": [
+          40.0,
+          31.372549019607845,
+          40.0
+        ],
+        "PS5 Slim Digital": [
+          38.297872340425535,
+          33.89830508474576,
+          38.297872340425535
+        ],
+        "Nintendo Switch OLED": [
+          57.142857142857146,
+          57.142857142857146,
+          57.14285714285714
+        ],
+        "iPhone 15": [
+          50.0,
+          26.315789473684205,
+          50.0
+        ],
+        "iPhone 15 Pro Max": [
+          36.8421052631579,
+          34.78260869565217,
+          36.8421052631579
+        ],
+        "iPad Air 5": [
+          31.57894736842105,
+          25.641025641025635,
+          31.57894736842105
+        ],
+        "M1 MacBook Air": [
+          28.57142857142857,
+          18.604651162790702,
+          28.57142857142857
+        ],
+        "Sony WH-1000XM5": [
+          29.411764705882348,
+          22.727272727272734,
+          29.411764705882348
+        ]
+      },
+      "candidates": [
+        {
+          "target": "Nintendo Switch OLED",
+          "price_centavos": 650000,
+          "flag": "normal"
+        }
+      ]
+    },
+    {
+      "listing": {
+        "id": "bench_22",
+        "title": "Custom Mechanical Keyboard Keycaps",
+        "price": 1200.0,
+        "description": "Cherry profile PBT keycaps.",
+        "expected_target": null,
+        "is_true_deal": false
+      },
+      "aliases": "Custom Mechanical Keyboard Keycaps",
+      "clean_description": "Cherry profile PBT keycaps.",
+      "scores": {
+        "PS5 Slim": [
+          33.333333333333336,
+          28.57142857142857,
+          33.333333333333336
+        ],
+        "PS5 Slim Digital": [
+          34.04255319148937,
+          28.125,
+          34.04255319148937
+        ],
+        "Nintendo Switch OLED": [
+          33.333333333333336,
+          33.33333333333333,
+          33.333333333333336
+        ],
+        "iPhone 15": [
+          33.333333333333336,
+          18.604651162790702,
+          33.333333333333336
+        ],
+        "iPhone 15 Pro Max": [
+          29.166666666666664,
+          23.529411764705884,
+          29.166666666666664
+        ],
+        "iPad Air 5": [
+          40.0,
+          27.272727272727266,
+          40.0
+        ],
+        "M1 MacBook Air": [
+          42.85714285714286,
+          29.16666666666667,
+          42.85714285714286
+        ],
+        "Sony WH-1000XM5": [
+          28.57142857142857,
+          20.40816326530613,
+          28.57142857142857
+        ]
+      },
+      "candidates": []
+    }
+  ],
+  "fuzzy_edges": [
+    {
+      "a": "",
+      "b": "",
+      "ratio": 100.0,
+      "partial": 100.0,
+      "token_set": 0.0
+    },
+    {
+      "a": "",
+      "b": "a",
+      "ratio": 0.0,
+      "partial": 0.0,
+      "token_set": 0.0
+    },
+    {
+      "a": "abcd",
+      "b": "bcde",
+      "ratio": 75.0,
+      "partial": 85.71428571428572,
+      "token_set": 75.0
+    },
+    {
+      "a": "abc",
+      "b": "xyz",
+      "ratio": 0.0,
+      "partial": 0.0,
+      "token_set": 0.0
+    },
+    {
+      "a": "new new phone",
+      "b": "new phone",
+      "ratio": 81.81818181818181,
+      "partial": 100.0,
+      "token_set": 100.0
+    },
+    {
+      "a": "Nintendo Switch",
+      "b": "Switch Nintendo OLED",
+      "ratio": 51.42857142857142,
+      "partial": 64.28571428571428,
+      "token_set": 100.0
+    }
+  ]
+}
